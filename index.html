@@ -4,103 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Zain Mobhani</title>
-
-  <style>
-    /* Light mode variables */
-    :root {
-      --bg-color: #ffffff;
-      --text-color: #111111;
-      --card-color: #f4f4f4;
-      --link-color: #0066cc;
-    }
-
-    /* Dark mode */
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg-color: #121212;
-        --text-color: #f0f0f0;
-        --card-color: #1e1e1e;
-        --link-color: #4da3ff;
-      }
-    }
-
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 1rem;
-    }
-
-    /* Fade-in animation */
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: translateY(-20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    .container {
-      max-width: 600px;
-      width: 100%;
-      background-color: var(--card-color);
-      padding: 4rem;
-      border-radius: 20px;
-      text-align: center;
-      animation: fadeIn 1s ease-out;
-    }
-
-    img {
-      width: 140px;
-      height: 140px;
-      object-fit: cover;
-      border-radius: 0%;
-      margin-bottom: 1rem;
-    }
-
-    h1 {
-      margin: 0.5rem 0;
-      font-size: 2rem;
-    }
-
-    p {
-      font-size: 1rem;
-      line-height: 1.5;
-    }
-
-    .links {
-      margin-top: 2rem;
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      flex-wrap: wrap;
-    }
-
-    a {
-      color: var(--link-color);
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <div class="container">
     <h2>Hi, my name is Zain.</h2>
     <p>
-        I'm a software engineer at GTRI's <a href="https://www.gtri.gatech.edu/focus-areas/software-engineering-and-analytics">Software Engineering and Analytics Division</a>.
+        I'm a C++ software engineer in the <a href="https://www.gtri.gatech.edu/focus-areas/software-engineering-and-analytics">Software Engineering and Analytics Division</a> at GTRI.
     </p>
     <div class="links">
       <a href="src/doc/Zain_Mobhani_GTRI_SWE.pdf" target="_blank">Resume</a>
