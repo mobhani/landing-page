@@ -1,4 +1,4 @@
-/* Light mode variables */
+/* Light mode: https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529 */
 :root {
   --bg-color: #E9ECEF;
   --card-color: #DEE2E6;
@@ -7,16 +7,15 @@
   --text-color: #212529;
   --link-color: #0661bc; 
 }
-/* https://coolors.co/palette/f6f8f9-edf0f2-d7dce0-b5bdc4-8a96a1-5b6671-364049-e3ecf0 */
 
-/* Dark mode: https://coolors.co/palette/0d1321-1d2d44-3e5c76-748cab-f0ebd8 */
-@media (prefers-color-scheme: dark) {
+/* Dark mode: https://coolors.co/palette/0e1c26-13232c-172a32-1c3139-21373f-253e45-2a454b */
+@media (prefers-color-scheme: light) {
   :root {
-  --bg-color: #0D1321;
-  --card-color: #1D2D44;
-  --button-hover-color:#748CAB;
-  --button-color:#3E5C76;
-  --text-color: #F0EBD8;
+  --bg-color: #0E1C26;
+  --card-color: #13232C;
+  --button-hover-color:#1C3139;
+  --button-color:#172A32;
+  --text-color: #BFC3BA;
   --link-color: #748CAB; 
   }
 }
