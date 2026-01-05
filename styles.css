@@ -1,20 +1,21 @@
 /* Light mode variables */
 :root {
-  --bg-color: #f5f7fa;
-  --card-color: #edf0f5;
-  --button-hover-color:#edf0f5;
-  --button-color:#e2e6ed;
-  --text-color: #2f3542;
+  --bg-color: #F6F8F9;
+  --card-color: #EDF0F2;
+  --button-hover-color:#EDF0F2;
+  --button-color:#D7DCE0;
+  --text-color: #364049;
   --link-color: #0661bc; 
 }
+/* https://coolors.co/palette/f6f8f9-edf0f2-d7dce0-b5bdc4-8a96a1-5b6671-364049-e3ecf0 */
 
-/* Dark mode */
+/* Dark mode: https://coolors.co/palette/7f9a8f-5f8a7a-4a6f5f-395a4d-2b453b-1e2f29-121d19 */
 @media (prefers-color-scheme: dark) {
   :root {
-  --bg-color: #2f3542;
-  --card-color: #4c5364;
-  --button-hover-color:#8a93a3;
-  --button-color:#6b7384;
+  --bg-color: #121D19;
+  --card-color: #1E2F29;
+  --button-hover-color:#395A4D;
+  --button-color:#2B453B;
   --text-color: #f5f7fa;
   --link-color: #3a9cff; 
   }
