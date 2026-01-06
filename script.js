@@ -1,9 +1,8 @@
-
 /*
     Function to start download of resume without opening it in a new tab
-    or navigating away from home page.
+    or navigating away from home page (browser & platform dependant).
 */
-function startDownload()
+function downloadResume()
 {
     var fileUrl = "src/doc/Zain_Mobhani_GTRI_SWE.pdf";
     var link = document.createElement('a');
