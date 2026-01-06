@@ -59,12 +59,12 @@ body {
 }
 
 .container {
-  max-width: 600px;
-  width: 100%;
+  max-width: 400px;
+  width: 80%;
   background-color: var(--card-color);
   box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.24), 3px 9px 27px 0 rgba(0,0,0,0.19);
-  padding: 4rem;
-  border-radius: 20px;
+  padding: 3rem;
+  border-radius: 30px;
   text-align: center;
   animation: containerFadeIn 1s ease-out;
 }
@@ -119,8 +119,8 @@ a:hover {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer; /* Pointer cursor on hover */
-  border-radius: 8px; /* Rounded corners */
-  transition-duration: 0.3s; /* Smooth transition for hover effects */
+  border-radius: 15px; /* Rounded corners */
+  transition-duration: 0.2s; /* Smooth transition for hover effects */
   animation: elementFadeIn 2s ease-out;
 }
 
